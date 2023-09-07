@@ -40,11 +40,26 @@ class NatsProvider(private val accessToken: String, private val natsUrl: String,
             connectionDispatcher?.subscribe(stream, subscribeMessageHandler)
     }
 
+    fun unsubscribe() {
+        if (nc == null || connectionDispatcher == null)
+            throw Exception("Nats connection is not established")
+        else
+            connectionDispatcher?.unsubscribe(stream)
+    }
+
     fun publish(message: String) {
         if (nc == null)
             throw Exception("Nats connection is not established")
         else
             nc?.publish(stream, "${message}x ".toByteArray(Charsets.UTF_8))
+    }
+
+    fun publish(byteArray: ByteArray) {
+        if (nc == null)
+            throw Exception("Nats connection is not established")
+        else
+            nc?.publish(stream, byteArray)
+
     }
 
     fun disconnect() {
