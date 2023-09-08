@@ -15,7 +15,9 @@ Before you begin using the Kotlin SDK, make sure you have the necessary credenti
 
 ## Examples
 
-For detailed usage examples, please refer to the [examples directory](https://github.com/daviderota/pubsub-kotlin/subscribe_with_seed.kt) in the repository. These examples explain how you can subscribe messages by NATS connection and demonstrate how to utilize the SDK's features effectively.
+For detailed usage example, please refer to the [examples directory]([https://github.com/daviderota/pubsub-kotlin/subscribe_with_seed.kt](https://github.com/daviderota/pubsub-kotlin/blob/main/src/main/kotlin/subscribe_by_seed.kt)) in the repository. 
+These examples explain how you can subscribe messages by NATS connection and demonstrate how to utilize the SDK's features effectively.
+Another example is [examples directory]([https://github.com/daviderota/pubsub-kotlin/subscribe_with_seed.kt](https://github.com/daviderota/pubsub-kotlin/blob/main/src/main/kotlin/publish.kt))
 
 The preferred authentication method is using an access token from the [developer portal](https://developer-portal.syntropynet.com/).
 
