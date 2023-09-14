@@ -44,4 +44,4 @@ We appreciate your contributions and thank you for your support in making this p
 
 If you encounter any difficulties or have questions regarding the Kotlin SDK for Data Layer, please reach out to our support team at  [Discord #developer-discussion](https://discord.com/channels/503896258881126401/1125658694399561738). We are here to assist you and ensure a smooth experience with our SDK.
 
-We hope this documentation provides you with a comprehensive understanding of the Kotlin SDK for the Data Layer. Enjoy leveraging real-time data streams and unlocking the power of the Data Layer in your Kotlin applications!
+We hope this documentation provides you with a comprehensive understanding of the Kotlin SDK for the Data Layer. Enjoy leveraging real-time data streams and unlocking the power of the Data Layer in your Kotlin applications! 
