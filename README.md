@@ -1,8 +1,8 @@
-# PubSub Kotlin
+# Syntropy PubSub Kotlin
 
 Welcome to the documentation for the Kotlin SDK for the Data Layer by Syntropy! This SDK allows seamless integration with our Data Layer solution, enabling you to leverage real-time data streams in your Kotlin applications. With the Kotlin SDK, you can unlock the power of the Data Layer and harness real-time insights for your data-driven projects.
 
-[pubsub-kotlin](https://github.com/daviderota/syntropy-pubsub-kotlin) is a Kotlin example illustrating the use of the Syntropy Data Layer project, which facilitates subscription to existing data streams or publishing new ones. This example employs the NATS messaging system and offers a simpler starting point for integrating Kotlin applications with the Syntropy Data Layer platform.
+[syntropy-pubsub-kotlin](https://github.com/daviderota/syntropy-pubsub-kotlin) is a Kotlin example illustrating the use of the Syntropy Data Layer project, which facilitates subscription to existing data streams or publishing new ones. This example employs the NATS messaging system and offers a simpler starting point for integrating Kotlin applications with the Syntropy Data Layer platform.
 
 # Installation
 
@@ -15,14 +15,14 @@ Before you begin using the Kotlin SDK, make sure you have the necessary credenti
 
 ## Examples
 
-For detailed usage example, please refer to the [examples directory]([https://github.com/daviderota/pubsub-kotlin/subscribe_with_seed.kt](https://github.com/daviderota/pubsub-kotlin/blob/main/src/main/kotlin/subscribe_by_seed.kt)) in the repository. 
+For detailed usage example, please refer to the [examples directory]([https://github.com/daviderota/syntropy-pubsub-kotlin/subscribe_with_seed.kt](https://github.com/daviderota/syntropy-pubsub-kotlin/blob/main/src/main/kotlin/subscribe_by_seed.kt)) in the repository. 
 These examples explain how you can subscribe messages by NATS connection and demonstrate how to utilize the SDK's features effectively.
-Another example is [examples directory]([https://github.com/daviderota/pubsub-kotlin/subscribe_with_seed.kt](https://github.com/daviderota/pubsub-kotlin/blob/main/src/main/kotlin/publish.kt))
+Another example is [examples directory]([https://github.com/daviderota/syntropy-pubsub-kotlin/subscribe_with_seed.kt](https://github.com/daviderota/syntropy-pubsub-kotlin/blob/main/src/main/kotlin/publish.kt))
 
 The preferred authentication method is using an access token from the [developer portal](https://developer-portal.syntropynet.com/).
 
 # Contributing
-We welcome contributions from the community! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/daviderota/pubsub-kotlin). We appreciate your feedback and collaboration in making this SDK even better. 
+We welcome contributions from the community! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/daviderota/syntropy-pubsub-kotlin). We appreciate your feedback and collaboration in making this SDK even better. 
 
 ## Contribution Guidelines
 
