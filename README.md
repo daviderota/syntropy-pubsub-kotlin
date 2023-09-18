@@ -2,7 +2,7 @@
 
 Welcome to the documentation for the Kotlin SDK for the Data Layer by Syntropy! This SDK allows seamless integration with our Data Layer solution, enabling you to leverage real-time data streams in your Kotlin applications. With the Kotlin SDK, you can unlock the power of the Data Layer and harness real-time insights for your data-driven projects.
 
-[pubsub-kotlin](https://github.com/daviderota/pubsub-kotlin) is a Kotlin example illustrating the use of the Syntropy Data Layer project, which facilitates subscription to existing data streams or publishing new ones. This example employs the NATS messaging system and offers a simpler starting point for integrating Kotlin applications with the Syntropy Data Layer platform.
+[pubsub-kotlin](https://github.com/daviderota/syntropy-pubsub-kotlin) is a Kotlin example illustrating the use of the Syntropy Data Layer project, which facilitates subscription to existing data streams or publishing new ones. This example employs the NATS messaging system and offers a simpler starting point for integrating Kotlin applications with the Syntropy Data Layer platform.
 
 # Installation
 
